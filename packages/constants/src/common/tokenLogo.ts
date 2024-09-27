@@ -1,0 +1,1 @@
+export const TOKEN_LOGO_S3_BUCKET_NAME = 'icecreamswap-assets'
