@@ -12,6 +12,7 @@ import { dogechain } from './dogechain'
 import { fuse } from './fuse'
 import { gravityalpha } from "./gravityalpha"
 import { lightlink } from "./lightlink"
+import { match } from './match'
 import { mint } from "./mint"
 import { neon } from "./neon"
 import { oneWorld } from "./oneworld"
@@ -31,6 +32,7 @@ import { xdc } from './xdc'
 import { xodex } from "./xodex"
 
 export const chainMap = {
+  match,
   core,
   // bsc,
   // bob,
@@ -70,6 +72,7 @@ export const getChain = (chainId: number) => {
 }
 
 export enum ChainId {
+  MATCH = match.id,
   CORE = core.id,
   BLAST = blast.id,
   NEON = neon.id,
@@ -103,4 +106,4 @@ export enum ChainId {
   ROOTSTOCK = rootstock.id,
 }
 
-export const defaultChainId = ChainId.CORE
+export const defaultChainId = ChainId.MATCH

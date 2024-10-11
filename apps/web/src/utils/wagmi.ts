@@ -62,6 +62,7 @@ export const walletConnectConnector = new WalletConnectConnector({
   options: {
     projectId: '6fef113c17363471915d431aa5d1e8d4',
     showQrModal: true,
+    relayUrl: 'wss://relay.walletconnect.com',
   },
 })
 
@@ -70,6 +71,7 @@ export const walletConnectNoQrCodeConnector = new WalletConnectConnector({
   options: {
     projectId: '6fef113c17363471915d431aa5d1e8d4',
     showQrModal: false,
+    relayUrl: 'wss://relay.walletconnect.com',
   },
 })
 
