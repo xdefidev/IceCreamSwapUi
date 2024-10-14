@@ -1,0 +1,16 @@
+
+> @pancakeswap/v3-sdk@3.4.2 build /workspace/IceCreamSwapUi/packages/v3-sdk
+> tsup
+
+CLI Building entry: {"index":"./src/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Using tsup config: /workspace/IceCreamSwapUi/packages/v3-sdk/tsup.config.ts
+CLI Target: es2020
+CLI Cleaning output folder
+ESM Build start
+CJS Build start
+CJS dist/index.js 184.88 KB
+CJS ⚡️ Build success in 1714ms
+ESM dist/index.mjs 181.19 KB
+ESM ⚡️ Build success in 1717ms

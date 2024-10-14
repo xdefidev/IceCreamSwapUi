@@ -1,0 +1,20 @@
+
+> @icecreamswap/backend@1.2.0 build /workspace/IceCreamSwapUi/packages/backend
+> tsup src/index.ts src/server/nextApiHandler.ts --format esm,cjs --dts
+
+CLI Building entry: src/index.ts, src/server/nextApiHandler.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Target: esnext
+ESM Build start
+CJS Build start
+CJS dist/index.js                 1.74 KB
+CJS dist/server/nextApiHandler.js 66.63 KB
+CJS ⚡️ Build success in 161ms
+ESM dist/server/nextApiHandler.mjs 63.65 KB
+ESM dist/index.mjs                 694.00 B
+ESM ⚡️ Build success in 162ms
+DTS Build start
+DTS ⚡️ Build success in 20776ms
+DTS dist/index.d.ts                 56.98 KB
+DTS dist/server/nextApiHandler.d.ts 110.00 B

@@ -1,0 +1,32 @@
+
+> @pancakeswap/wagmi@2.0.1 build /workspace/IceCreamSwapUi/packages/wagmi
+> tsup
+
+CLI Building entry: {"index":"src/index.ts","connectors/miniProgram":"connectors/miniProgram/index.ts","connectors/binanceWallet":"connectors/binanceWallet/index.ts","connectors/blocto":"connectors/blocto/index.ts","connectors/trustWallet":"connectors/trustWallet/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Using tsup config: /workspace/IceCreamSwapUi/packages/wagmi/tsup.config.ts
+CLI Target: es2015
+ESM Build start
+CJS Build start
+ESM dist/chunk-WE74IZDZ.mjs           2.12 KB
+ESM dist/connectors/miniProgram.mjs   2.40 KB
+ESM dist/index.mjs                    1.26 KB
+ESM dist/connectors/binanceWallet.mjs 3.49 KB
+ESM dist/connectors/blocto.mjs        6.41 KB
+ESM dist/connectors/trustWallet.mjs   3.71 KB
+ESM ⚡️ Build success in 317ms
+CJS dist/connectors/miniProgram.js   2.46 KB
+CJS dist/chunk-CZIYAYPK.js           2.26 KB
+CJS dist/index.js                    1.30 KB
+CJS dist/connectors/trustWallet.js   3.77 KB
+CJS dist/connectors/blocto.js        6.54 KB
+CJS dist/connectors/binanceWallet.js 3.54 KB
+CJS ⚡️ Build success in 318ms
+DTS Build start
+DTS ⚡️ Build success in 11961ms
+DTS dist/index.d.ts                    532.00 B
+DTS dist/connectors/miniProgram.d.ts   817.00 B
+DTS dist/connectors/binanceWallet.d.ts 1.52 KB
+DTS dist/connectors/blocto.d.ts        1.32 KB
+DTS dist/connectors/trustWallet.d.ts   949.00 B

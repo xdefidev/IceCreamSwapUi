@@ -1,0 +1,26 @@
+
+> @pancakeswap/farms@1.0.15 build /workspace/IceCreamSwapUi/packages/farms
+> npx tsx scripts/build.ts
+
+save farm config...
+Starting build farm config 56
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/56.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/56.json
+Starting build farm config 32520
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/32520.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/32520.json
+Starting build farm config 2000
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/2000.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/2000.json
+Starting build farm config 122
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/122.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/122.json
+Starting build farm config 50
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/50.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/50.json
+Starting build farm config 1116
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/1116.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/1116.json
+Starting build farm config 2415
+Farm list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/2415.json
+Lp list saved to  /workspace/IceCreamSwapUi/packages/farms/lists/priceHelperLps/2415.json

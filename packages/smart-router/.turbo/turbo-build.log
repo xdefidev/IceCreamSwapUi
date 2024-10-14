@@ -1,0 +1,24 @@
+
+> @pancakeswap/smart-router@4.8.4 build /workspace/IceCreamSwapUi/packages/smart-router
+> tsup
+
+CLI Building entry: {"evm":"evm/index.ts","legacy-router":"legacy-router/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Using tsup config: /workspace/IceCreamSwapUi/packages/smart-router/tsup.config.ts
+CLI Target: es2020
+CLI Cleaning output folder
+ESM Build start
+CJS Build start
+"Fraction" is imported from external module "@pancakeswap/swap-sdk-core" but never used in "dist/evm.js".
+"Native" is imported from external module "@pancakeswap/sdk" but never used in "dist/chunk-ELMVPKZS.js".
+"Fraction" is imported from external module "@pancakeswap/swap-sdk-core" but never used in "dist/evm.mjs".
+"Native" is imported from external module "@pancakeswap/sdk" but never used in "dist/chunk-WPJALI3Q.mjs".
+ESM dist/evm.mjs            190.75 KB
+ESM dist/legacy-router.mjs  27.52 KB
+ESM dist/chunk-WPJALI3Q.mjs 34.85 KB
+ESM ⚡️ Build success in 3507ms
+CJS dist/legacy-router.js  28.04 KB
+CJS dist/chunk-ELMVPKZS.js 36.00 KB
+CJS dist/evm.js            196.80 KB
+CJS ⚡️ Build success in 3509ms

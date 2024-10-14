@@ -1,0 +1,25 @@
+export declare const base: string;
+export declare const button: string;
+export declare const element: {
+    article: string;
+    aside: string;
+    button: string;
+    details: string;
+    figcaption: string;
+    figure: string;
+    footer: string;
+    header: string;
+    hgroup: string;
+    menu: string;
+    nav: string;
+    section: string;
+    textarea: string;
+    ul: string;
+    ol: string;
+    blockquote: string;
+    q: string;
+    body: string;
+    table: string;
+    mark: string;
+    select: string;
+};
