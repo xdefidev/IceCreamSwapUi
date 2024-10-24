@@ -193,7 +193,9 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
   */
 
   return (
-    <ProductionErrorBoundary>
+    
+    <>
+    {/* <ProductionErrorBoundary> */}
       <ShowMenu>
         <Layout>
           {wrongChain ? (
@@ -225,8 +227,11 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
       <FixedSubgraphHealthIndicator />
       <NetworkModal pageSupportedChains={Component.chains} />
       <TransactionsDetailModal />
+
       {isShowScrollToTopButton && <ScrollToTopButtonV2 />}
-    </ProductionErrorBoundary>
+
+      {/* </ProductionErrorBoundary>  */}
+    </>
   )
 }
 

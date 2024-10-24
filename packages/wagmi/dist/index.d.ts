@@ -13,7 +13,7 @@ declare function useWeb3React(): {
 };
 
 declare function useSignMessage(): {
-    signMessageAsync: (args: SignMessageArgs) => Promise<any>;
+    signMessageAsync: (args: SignMessageArgs) => Promise<string | null>;
 };
 
 export { useSignMessage, useWeb3React };

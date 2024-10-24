@@ -1,8 +1,8 @@
-import { ErrorBoundary as SErrorBoundary } from '@sentry/nextjs'
-import Page from '../Layout/Page'
 import { useTranslation } from '@pancakeswap/localization'
-import { Button, Text, LogoIcon, Flex, IconButton, CopyIcon, copyText } from '@pancakeswap/uikit'
+import { Button, CopyIcon, copyText, Flex, IconButton, LogoIcon, Text } from '@pancakeswap/uikit'
+import { ErrorBoundary as SErrorBoundary } from '@sentry/nextjs'
 import { useCallback } from 'react'
+import Page from '../Layout/Page'
 
 export function SentryErrorBoundary({ children }) {
   const { t } = useTranslation()
